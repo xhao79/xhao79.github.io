@@ -100,10 +100,10 @@ It has referred to following articles:
 
 - **Special Statement**
 
-    要使用 `pdflatex`, 只需在tex文档首加入以下代码：
-    ```
-    %!TEX program = pdflatex
-    ```
+    在编写 LaTeX 文档时, 有两个特殊的命令:
+    - `%!TEX program` 用于指定编译当前 TeX 文档所用的命令, 例如: `%!TEX program = xelatex`. 这个命令只接受一个命令名字符串.
+    - `%!TEX root` 用于指定主(根)文件, 例如 `%!TEX root = relative/or/absolute/path/to/root/file.tex`
+
 
 - **External PDF Viwer**
 
