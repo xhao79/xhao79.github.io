@@ -89,3 +89,8 @@ title: 我的Blog
     {% endfor %}
 </ul>
 ```
+
+# Jekyll博客安卓客户端
+
+[知乎](https://zhuanlan.zhihu.com/p/27507830)
+[GitHub](https://github.com/tsangiotis/JekyllForAndroid)
