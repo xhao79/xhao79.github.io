@@ -9,16 +9,7 @@ author: HAO Xuguang
 <p>{{ page.author }}</p>
 <p>{{ page.date }}</p>
 
-<!-- TOC -->
-
-- [1. 创建项目](#1-创建项目)
-- [2. clone 项目到本地](#2-clone-项目到本地)
-- [3. 添加配置文件](#3-添加配置文件)
-- [4. 创建 layout](#4-创建-layout)
-- [5. 创建 posts](#5-创建-posts)
-- [创建 index.html](#创建-indexhtml)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [1. 创建项目](#1-创建项目)auto- [2. clone 项目到本地](#2-clone-项目到本地)autoauto<!-- /TOC -->
 
 [Jekyll](https://jekyllrb.com/)（发音/'dʒiːk əl/，"杰克尔"）是一个静态站点生成器，它会根据网页源码生成静态文件。它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。
 
@@ -35,7 +26,7 @@ theme: jekyll-theme-architect
 -->
 
 # 2. clone 项目到本地
-```
+```bash
 git clone git@github.com:username/username.github.io.git
 ```
 
@@ -43,14 +34,15 @@ git clone git@github.com:username/username.github.io.git
 
 创建空的 __config.yml_ 文件
 
-```
+```yml
+asdfjsoaeir
 ```
 
 # 4. 创建 layout
 
 创建 文件夹 __layouts_.
 在目录中创建 _default.html_. 其内容如下:
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -69,7 +61,7 @@ git clone git@github.com:username/username.github.io.git
 
 创建文件夹 __posts_
 在其下创建第一个post
-```
+```html
 ---
 layout: default
 title: 你好，世界
@@ -83,23 +75,17 @@ title: 你好，世界
 # 创建 index.html
 
 _index.html_ 的内容如下:
-```
+```html
 ---
 layout: default
 title: 我的Blog
 ---
 
 <h2>{{ page.title }}</h2>
-
 <p>最新文章</p>
-
 <ul>
-
     {% for post in site.posts %}
-
         <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-
     {% endfor %}
-
 </ul>
 ```
