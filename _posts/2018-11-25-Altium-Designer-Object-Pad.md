@@ -9,5 +9,5 @@ author: HAO Xuguang
 <p>{{ page.author }}</p>
 <p>{{ page.date }}</p>
 
-![](embeds/2018-11-25-Altium-Designer-Object-Pad/Pcb_Obj-Pad_Example_2d.png)
-![](embeds/2018-11-25-Altium-Designer-Object-Pad/Pcb_Obj-Pad_Example_3d.png)
+![](_resources/2018-11-25-Altium-Designer-Object-Pad/Pcb_Obj-Pad_Example_2d.png)
+![](_resources/2018-11-25-Altium-Designer-Object-Pad/Pcb_Obj-Pad_Example_3d.png)
