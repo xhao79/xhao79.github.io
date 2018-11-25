@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Altium Designer Object: Pad
+title: "Altium Designer Object: Pad"
 date: 2018-11-25
 author: HAO Xuguang
 ---
